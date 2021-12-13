@@ -9,26 +9,26 @@ body{
     background-color: #332208;
     margin-bottom: 50px;
     }
-    .header__inner{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 100px;
-    }
-    .menu__list{
-        display: flex;
-    }
-    .menu__item{
-        margin: 0 15px;
-    }
-    .menu__list-link{
-        text-transform: uppercase;
-        font-size: 18px;
-        line-height: 21px;
-        padding-bottom: 1px solid transparent;
-        transition: all .5s;
-        border-bottom: transparent;
-    }
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.menu__list{
+    display: flex;
+}
+.menu__item{
+    margin: 0 15px;
+}
+.menu__list-link{
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 1px solid transparent;
+    transition: all .5s;
+    border-bottom: transparent;
+}
     .menu__list-link:hover{
         border-bottom: 1px solid #fefefe;
     }
@@ -41,7 +41,7 @@ body{
         display: none;
     }
     .top {
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
     .top__heading {
         display: flex;
@@ -54,10 +54,49 @@ body{
     line-height: 29px;
     margin-bottom: 50px;  
 }
+    .container {
+    position: relative;
+    text-align: center;
+    color: #1b1818;
+}
+    /* Centered text */
+    .centered {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+    /* Bottom left text */
+/* .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+Top left text */
+/* .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+} */
+
+/* Top right text */
+/* .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+} */
+
+/* Bottom right text */
+/* .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+} */
     .top__content {
         text-align: center;
-        padding-top: 90px;
-        width: 50%;
+        padding-top: 0px;
+        width: 100%;
     }
     .top__title {
         font-family: Fira Sans;
@@ -166,7 +205,7 @@ body{
         margin-left: 60px;
     }
     .rent {
-        padding: 100px 0;
+        padding: 50px 0;
     }
     .rent__inner {
         display: flex;
