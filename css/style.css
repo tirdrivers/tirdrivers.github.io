@@ -60,12 +60,12 @@ body{
     color: #1b1818;
 } */
     /* Centered text */
-    /* .centered {
+    .centered {
     position: absolute;
     top: 50%;
     left: 60%;
     transform: translate(-50%, -50%);
-} */
+}
     /* Bottom left text */
 /* .bottom-left {
     position: absolute;
