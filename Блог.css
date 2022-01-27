@@ -260,6 +260,25 @@
     height: 100%;
     top: 0%;
   }
+
+  @media (max-width: 340px) {
+    .u-section-3 .u-sheet-1 {
+      min-height: 0;
+    }
+  
+    .u-section-3 .u-video-1 {
+      height: 200px;
+      margin-right: initial;
+      margin-left: initial;
+    }
+  
+    .u-section-3 .embed-responsive-1 {
+      width: 100%;
+      left: 0%;
+      height: 100%;
+      top: 0%;
+    }
+
 } .u-section-4 {
   background-image: linear-gradient(45deg, #425465, #292e33);
 }
